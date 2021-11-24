@@ -89,10 +89,21 @@ form input[type="text"]:focus{
   background-color: white;
 }
 
-#footer {
-    position: absolute;
-    bottom: 0;
+/*content*/
+#main-content {
+  max-width: 600px;
 }
-html, body {
-    height: 100%;
+.item p {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+
+
+
+#footer {
+    position: relative;
+    height: 40px;
+    background-color: grey;
 }
